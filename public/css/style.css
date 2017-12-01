@@ -1,0 +1,122 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    margin: 0
+}
+
+.logo {
+    max-height: 70px;
+}
+
+.logo-text {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 25px
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    border: 0;
+    margin-bottom: 0 !important;
+    border-radius: 0;
+    padding-top: 15px;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent
+}
+
+.navbar-default .navbar-nav>li>a {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    color: #1b1818;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: #00649E;
+    background: transparent
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #00649E;
+    background: transparent
+}
+
+.navbar-brand {
+    color: #fff !important
+}
+
+.nav-wrapper {
+    padding: 5px 0 10px 0;
+}
+
+.wc-wrapper {
+    background-image: url('../images/IMG_8861.jpg');
+    background-size: cover;
+    height: 500px;
+    color: white;
+    padding-top: 150px
+}
+
+.large-text {
+    font-size: 70px;
+    line-height: 1.250em;
+    font-weight: bolder;
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    position: relative;
+    right: 0
+}
+
+.small-text {
+    font-size: 16px;
+}
+
+.msg-btn-div {
+    margin: 30px 0
+}
+
+.msg-btn {
+    font-size: 18px;
+    background: white;
+    color: #333;
+    padding: 10px 15px
+}
+
+.sc-wrapper {
+    margin: 30px 0
+}
+
+.section-title {
+    margin: 30px
+}
+
+.section-title:after {
+    content: "";
+    background: #00649E;
+    width: 30px;
+    height: 4px;
+    display: inline-block;
+}
+
+.sc-wrapper img {
+    max-height: 200px
+}
+
+.img-text {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    color: white;
+    background: #111;
+    padding: 5px 10px
+}
