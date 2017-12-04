@@ -13,9 +13,22 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#">HOME</a></li>
+        <li class="{{$page == 'home' ? 'active': ''}}"><a href="{{url('/')}}">HOME</a></li>
         <li><a href="#">PORTFOLIO</a></li>
-        <li><a href="#">GALLERY</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gallery <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Wedding</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Portraits</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Babies</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Lifestyle</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Fashion</a></li>
+          </ul>
+        </li>
         <li><a href="#">ABOUT</a></li>
         <li><a href="#">CONTACT</a></li>
       </ul>

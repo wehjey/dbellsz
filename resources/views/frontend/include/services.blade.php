@@ -35,7 +35,7 @@
             
               <center>
               
-                <img class=" img-responsive" src="{{url('images/services/IMG_3940-Large.jpg')}}" />
+                <img class=" img-responsive" src="{{url('images/services/IMG_8550.jpg')}}" />
       
                 <div class="img-text">
                   Event Coverage
@@ -56,7 +56,7 @@
                   
                     <center>
                     
-                      <img class=" img-responsive" src="{{url('images/services/IMG_3940-Large.jpg')}}" />
+                      <img class=" img-responsive" src="{{url('images/services/IMG_7472-Large.jpg')}}" />
             
                       <div class="img-text">
                         Portfolio Shoots
@@ -70,7 +70,7 @@
                   
                     <center>
                     
-                      <img class=" img-responsive" src="{{url('images/services/IMG_3940-Large.jpg')}}" />
+                      <img class=" img-responsive" src="{{url('images/services/Untitled-1.jpg')}}" />
             
                       <div class="img-text">
                         Lifestyle
@@ -83,7 +83,7 @@
                     
                       <center>
                       
-                        <img class=" img-responsive" src="{{url('images/services/IMG_3940-Large.jpg')}}" />
+                        <img class=" img-responsive" src="{{url('images/services/IMG_8726-Edit-Large.jpg')}}" />
               
                         <div class="img-text">
                           Family Portraits

@@ -1,7 +1,7 @@
 <footer class="footer-wrapper">
     <div class="container">
         <div class="section-title" align="center">
-            <h2>CONTACT</h2>
+            <h2>GET IN TOUCH</h2>
         </div><!-- end section-title -->
         
 
@@ -36,35 +36,47 @@
                 </form>
             </div><!-- end col-sm-7 -->
             <div class="col-sm-5 social" style="font-size:20px">
+
+                <h5 style="font-size:14px;color:#fff">Quick Links</h5>
+
+                <nav class="f-nav">
+                    <a href="{{url('/')}}">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="{{url('/')}}">Gallery</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="{{url('/')}}">Portfolio</a>
+                </nav>
+
+                <br/>
+
                 <h5 style="font-size:14px;color:#fff">Follow Me</h5>
                     
                 <a href="https://twitter.com/dbellszshots" target="_blank">
-                <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                </span>
+                    <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                    </span>
                 </a>
         
                 <a href="https://www.facebook.com/dbellszshots" target="_blank">
-                <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                </span>
+                    <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                    </span>
                 </a>
         
                 <a href="https://www.instagram.com/dbellszshots" target="_blank">
-                <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
-                </span>
+                    <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                    </span>
                 </a>
         
                 <a href="mailto:contact@dbellszshots.com" target="_blank">
-                <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                </span>
+                    <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                    </span>
                 </a>
+
             </div><!-- end col-sm-5 -->
         </div>
         
@@ -73,10 +85,9 @@
 <div class="bottom-bar" align="center">
     <div class="container">
         <ul class="list-inline">
-            <li>&copy; {{date('Y')}} Dbellsz Shots. All Rights Reserved.&nbsp;&nbsp;&nbsp;&nbsp;|</li>
-            <li>Home&nbsp;&nbsp;&nbsp;&nbsp;|</li>
-            <li>Gallery&nbsp;&nbsp;&nbsp;&nbsp;|</li>
-            <li>Portfolio</li>
+            <li>&copy; {{date('Y')}} Dbellsz Shots. All Rights Reserved.</li>
         </ul>
     </div>
 </div>
+
+<button onclick="topFunction()" id="scrollBtn" title="Go to top"><span class="fa fa-chevron-up"></span></button>
